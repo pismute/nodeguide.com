@@ -1,0 +1,13 @@
+* Add Guillermo Rauch, Paul Querna (pquerna), Matt Ranney (mjr_), Micheil Smith (micheil / miksago)
+* Also add:
+Charlie Robbins
+http://twitter.com/#!/indexzero
+https://github.com/indexzero
+
+Elijah Insua
+http://twitter.com/#!/tmpvar
+https://github.com/tmpvar
+
+* Explain extending prototypes
+* Talk about callbacks in combination with EvenEmitters (do not emit an event if handled by callback.
+* Style: Put catch block on same line if blank intentionally
