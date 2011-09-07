@@ -1,16 +1,16 @@
 % Felix's Node.js Community Guide
 
-Beginner's Guide를 읽었고 node.js 커뮤니티에 좀더 참여하고 싶을 때 이 가이드가 딱이다.
+이 가이드는 Beginner's Guide도 읽은 후 node.js 커뮤니티에 좀 더 다가가고 싶을 때 적당하다.
 
 ## IRC
 
-IRC는 vim과 emacs의 장단점같은 것에 대해서 토론하기 좋은 곳이다. 게다가 사람들과 소통하거나 도움을 요청하기 좋다.
+IRC는 vim과 emacs의 장단점같은 주제를 논의하기에 좋은 곳이다. 게다가 사람들과 단순히 대화하는 것 뿐만 아니라 도움을 요청하기도 좋다.
 
-node.js의 공식적인 irc 채널은 [chat.freenode.net][freenode]에 있다. '#node.js'라는 채널이다. '.'도 이름의 일부다. 여기는 보통 500명 안팍의 사람들이 있다.
+node.js의 공식적인 irc 채널은 [chat.freenode.net][freenode]에 있는 '#node.js'이다. '.'도 이름의 일부이니 꼭 필요하다. 여기는 보통 500명 안팍의 사람들이 있다.
 
-질문이 있으면 node.js 채널로 가서 물어보면 된다. 채널을 보고 있는 사람이 있으면 즉시 좋은 해결책을 찾을 수 있을 것이다. 그렇지 않으면 자리를 펴고 한시간 정도 기다면 될 것이다. 사람들이 질문을 못 들은 것 같으면 다시 물어볼 수 있다.
+질문이 있으면 node.js 채널로 가서 물어보면 된다. 알고 있는 사람이 있으면 즉시 좋은 해결책을 찾을 수 있다. 그렇지 않아도 한시간 정도 기다면 될 것이다. 사람들이 질문을 못 들은 것 같으면 다시 물어 봐도 된다.
 
-그래도 먼저 웹에서 답을 찾아보는 것 좋다. [아 정말 그렇지?][lmgtfy]
+그래도 웹에서 한번 찾아보고 묻는 것이 좋다. [아 정말 그렇지?][lmgtfy]
 
 [freenode]: http://webchat.freenode.net/
 [lmgtfy]: http://lmgtfy.com/
@@ -22,25 +22,25 @@ Group Group의 메일링 리스트에서 node.js에 대해 많은 토론이 이�
 [nodejs](https://groups.google.com/forum/#!forum/nodejs)
   ~ 'nodejs' 리스트는 일반적인 node.js 질문과 토론에 적당하다. 보통은 여기서 원하는 것을 얻을 수 있다.
 [nodejs-dev](https://groups.google.com/forum/#!forum/nodejs-dev)
-  ~ node.js의 버그를 발견했거나 node.js의 기능과 개발에 대해 토론하고 싶다면 nodejs-dev 메일링 리스트에 참여하면 된다. 보통 조용하다. 대부분의 핵심 기여자들은 모두 여기에 참여하고 있다.
+  ~ node.js의 버그를 발견했거나 node.js의 기능과 개발에 대해 토론하고 싶다면 nodejs-dev 메일링 리스트에 참여하면 된다. 평소엔 조용하다. 대부분의 핵심 기여자들은 모두 여기에 참여하고 있다.
 
 ## Twitter
 
-'.' 문자는 트위터의 태그 이름으로는 사용할 수 없기 때문에 사람들은 '#nodejs' 태그를 사용한다. '#nodejs'태그로 node.js와 관련된 내용들을 걸러 볼 수 있다. 그리고 트위터의 검색 기능으로 트윗한 내용들을 찾아 볼 수 있다.
+'.' 문자는 트위터의 태그 이름으로는 사용할 수 없기 때문에 사람들은 '#nodejs' 태그를 사용한다. '#nodejs'태그로 node.js와 관련된 내용들만 거를 수 있고 트윗됐던 내용들을 검색할 수 있다.
 
 [http://search.twitter.com/search?q=%23nodejs%20OR%20node.js](http://search.twitter.com/search?q=%23nodejs%20OR%20node.js)
 
-모든 사람이 자신의 트윗에 태그를 다는 것이 아니기 때문에 'node.js'라는 검색어도 사용하여 검색하는 것이 좋다.
+모든 사람이 자신의 트윗에 태그를 다는 것이 아니기 때문에 꼭 검색해보는 것이 좋다.
 
 ## Community Members
 
-node.js의 개발을 주도하고 있는 사람들이 궁금하면 이 글을 읽는 것이 좋다.
+node.js의 개발을 주도하고 있는 사람들을 여기에서 소개한다.
 
 ### Ryan Dahl
 
-Ryan은 node.js 만들고 관리하고 있는 [BDFL][bdfl]이다. node.js에서 이루어지는 모든 커밋은 그가 검토하고 있다. 그는 node 레파지토리에 직접 커밋할 수 있는 유일한 사람이다.
+Ryan은 node.js를 만들고 관리하는 [BDFL][bdfl]이다. node.js에서 이루어지는 모든 커밋은 그가 검토하고 있다. 그는 node 레파지토리에 직접 커밋할 수 있는 유일한 사람이다.
 
-Ryan은 매우 빠쁜데도 IRC나 메일링 리스트에 답변하려고 노력한다. 그가 즉시 답변하지 않는다고 해서 기분 나빠하지 마라. 거기에 있는 다른 사람들이 도울 것이다.
+Ryan은 매우 바쁜데도 IRC나 메일링 리스트에 답변하려고 노력한다. 그가 즉시 답변하지 않는다고 해서 기분 나빠하지 마라. 대신 다른 사람들이 도울 것이다.
 
 Ryan은 [Joyent][joyent]에서 일한다. Joyent는 heroku-style로 [node.js 호스팅][nodehosting]을 제공하고 있는 node.js의 공식 스폰서다.
 
@@ -69,7 +69,7 @@ Isaac는 [npm][npm]을 만든 사람이다. npm은 node.js 커뮤니티가 사�
 
 ### Bert Belder
 
-Bert는 윈도우용 node의 주 개발자이며 이 프로젝트에 가장 많은 기여를 하고 있다.
+Bert는 윈도우용 node의 주 개발자이며 윈도우 프로젝트에서 가장 중요한 사람이다.
 
 * IRC Nick: piscisaureus
 * Twitter: [@piscisaureus](http://twitter.com/piscisaureus)
@@ -158,7 +158,7 @@ Jeremy는 [CoffeeScript][], [underscore][], [backbone][], [docco][]등을 만들
 
 ### Jed Schmidt
 
-Jed는 밤마다 자바스크립트 닌자로 활동하는 일본어 번역가다. 그의 node.js 프레임워크인 [fab.js][fabjs]는 근본적으로 새로운 자바스크립트이다. fab.js는 사람들이 알고 있던 자바스크립트가 아니다. 눈부시게 빛나는 일들이 일어나고 있다.
+Jed는 밤마다 자바스크립트 닌자로 활동하는 일본어 번역가다. 그의 node.js 프레임워크인 [fab.js][fabjs]는 근본적으로 새로운 자바스크립트이다. fab.js는 사람들이 알고 있던 자바스크립트가 아니다. 정말 빛나고 있다. 빛나고 있다.
 
 * IRC Nick: jedschmidt
 * Twitter: [@jedschmidt](http://twitter.com/jedschmidt)
@@ -180,7 +180,7 @@ Marak은 Jim Bastard라는 별명으로 활동하고 있고 매달 십여개의 
 
 ### Peteris Krumins
 
-그의 유명한 블로고 [catomat.net][catomat]를 통해서 그를 알고 있는 사람도 있을 것이다. James Halliday와 함께 그는 최근 [browserling][browserling]라는 node.js 스타트업을 시작했다. 그 둘은 오픈소스 모듈을 대량 생산 하고 있다. 
+그의 유명한 블로거라서 이미 [catomat.net][catomat]를 통해서 그를 알고 있는 사람도 있을 것이다. James Halliday와 함께 그는 최근 [browserling][browserling]라는 node.js 스타트업을 시작했다. 그 둘은 오픈소스 모듈을 대량 생산 하고 있다. 
 
 * IRC Nick: pkrumins
 * Twitter: [@pkrumins](http://twitter.com/pkrumins)
@@ -207,6 +207,6 @@ James는 [dnode][dnode], [optimist][optimist], [browserify][browserify]같은 �
 
 ### 이름 올리기.
 
-이 목록은 철저하게 조사하지도 않았고 순서도 랜덤이다. 나는 이 목록을 짧게 유지하려고 하고 있다. 모든 [node.js 사용자][nodejsusers]들의 이름을 이 목록에 올릴 수는 없다. 내가 중요한 사람을 빼먹었을 수도 있으니 이 목록에 이름을 올리고 싶으면 나에게 메일을 보내면 딘다.
+이 목록은 철저하게 조사하지도 않았고 순서도 아무 의미없다. 나는 이 목록을 짧게 유지하려고 노력하고 있다. [node.js 사용자][nodejsusers]들을 모두 이 목록에 올릴 수는 없다. 내가 중요한 사람을 빼먹었을 수도 있으니 여기에 이름이 없으면 나에게 메일을 보내면 딘다.
 
 [nodejsusers]: https://github.com/joyent/node/wiki/Node-Users

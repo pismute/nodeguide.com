@@ -4,14 +4,14 @@
 
 저는 [Felix Geisendörfer][felixge] 입니다. [node.js][nodejs] 초기부터 핵심 contributor로 참여해 왔으며 [transloadit.com][transloadit]의 공동설립자이기도 합니다.
 
-지난 몇 달간 나는 사람들과 많은 [대화][talks]를 나누었고 node.js를 사용하여 [컨설팅][consulting]도 많이 했습니다. 
+지난 몇 달간 사람들과 많은 [대화][talks]를 나누고 node.js를 사용하여 [컨설팅][consulting]도 많이 했습니다. 
 
-나 스스로 계속 같은 일을 반복하고 있다는 생각이 들어서 이 비공식 가이드를 써서 node.js를 처음 시작하는 사람들을 돕기로 했습니다. 최근 휴가를 이 일에 투자했습니다.
+나 스스로 같은 일을 계속 반복하는 것 같아서 이 가이드를 써서 node.js를 처음 시작하는 사람들을 돕기로 했습니다. 그래서 휴가를 조금 할애하여 이 일에 투자했습니다.
 
 ## Content
 
 [Node.js Beginner Guide](beginner.html)
-  ~ 만약 node.js를 처음 접한다면 이 것을 읽어 주세요. hello world 어플리케이션을 만들고 디플로이할 수 있게 도와줄 거에요.
+  ~ 만약 node.js를 처음 접한다면 이 글을 읽어 주세요. hello world 어플리케이션을 만들고 디플로이할 수 있게 도와줄 거에요.
 [Node.js Style Guide](style.html)
   ~ node.js에서도 일반적인 자바스크립트 스타일을 추천합니다. 개인에 취향에 따라 많은 방법이 존재하지만 좀 더 일관적인 방법을 알아볼 거에요.
 [Node.js Community Guide](community.html)
@@ -38,7 +38,7 @@
 
 ## License
 
-나는 아직 라이센스를 어떻게 할지 결정을 하지 않았습니다. 만약 이 글을 재배포하고 싶으면 [나][email]한테 메일을 보내주세요.
+라이센스를 어떻게 할지 결정은 아직 하지 않았습니다. 만약 이 글을 재배포하고 싶으면 [나][email]한테 메일을 보내주세요.
 
 [felixge]: http://twitter.com/felixge
 [nodejs]: http://nodejs.org/
