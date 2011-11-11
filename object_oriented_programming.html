@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <title>Felix's Node.js Object Oriented Programming Guide</title>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/screen.css" />
+</head>
+<body>
+<div class="container">
+<p>
+  <a href="index.html">&#171; Home / All Guides</a>
+</p>
+<header>
+<h1 class="title">Felix's Node.js Object Oriented Programming Guide</h1>
+</header>
+<nav id="TOC">
+<ul>
+<li><a href="#important-this-guide-is-not-ready-to-yet-please-go-away.">IMPORTANT: This guide is not ready to yet, please go away.</a><ul>
+<li><a href="#basic-example">Basic Example</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="important-this-guide-is-not-ready-to-yet-please-go-away."><a href="#TOC">IMPORTANT: This guide is not ready to yet, please go away.</a></h1>
+<p>Object oriented programming is a fairly well-understood approach to write maintainable Software. Even so JavaScript does not explicetly favor OOP, it makes it easy enough to use it.</p>
+<p>To help with some common tasks, I recommend that you use the 'oop' module. (Disclaimer: I'm the author of the oop module.)</p>
+<h2 id="basic-example"><a href="#TOC">Basic Example</a></h2>
+<p>Here is a basic example of a node.js class. The later parts of this document will explore various concepts behind it.</p>
+<p>var oop = require('oop'); var EventEmitter = require('events').EventEmitter;</p>
+<p>function KitchenTimer(properties) {   this.<em>interval = null;   this.</em>timeout = null;   this.<em>minutes = null;   this.</em>start = null;</p>
+<p>  oop.inherits(this, EventEmitter);   oop.mixin(this, properties); }</p>
+<p>KitchenTimer.SECOND = 1000; KitchenTimer.MINUTE = KitchenTimer.SECOND * 60;</p>
+<p>KitchenTimer.create = function(minutes) {   var timer = new KitchenTimer();   timer.set(minutes);   return timer; }</p>
+<p>KitchenTimer.prototype.set = function(minutes) {   var ms = minutes * KitchenTimer.MINUTE;   this.<em>timeout = setTimeout(this.</em>ring.bind(this), ms);   this.<em>interval = setInterval(this.</em>tick.bind(this), KitchenTimer.SECOND);</p>
+<p>  this.<em>minutes = minutes;   this.</em>start = new Date(); };</p>
+<p>KitchenTimer.prototype._tick = function() {   this.emit('tick'); };</p>
+<p>KitchenTimer.prototype._ring = function() {   this.emit('ring');   this.reset(); }</p>
+<p>KitchenTimer.prototype.reset = function() {   clearTimeout(this.<em>timeout);   clearInterval(this.</em>interval);</p>
+<p>  oop.reset(this); }</p>
+<p>KitchenTimer.prototype.remaining = function() {   var ms = (new Date() - this._start);   var minutes = ms / KitchenTimer.MINUTE;   return minutes; };</p>
+  <div class="copyright">
+  © 2011, <a href="http://debuggable.com/">Debuggable Limited</a>.
+  </div>
+</div>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3306079-11']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
+</html>
